@@ -1,2 +1,28 @@
 @import './common';
-@import './example';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   // ===== Colors=======
+
+    --primary-color: #5932EA;
+    --panel-color: #FFFFFF;
+    --body-color: #B5B7C0;
+    --text-color-blac: #000000;
+    --text-corol-menu: #9197B3;
+    --text-color-product: #B5B7C0;
+    --text-color-green: #008767;
+    --text-color-red: #DF0404;
+    --button-color-green: #16C098;
+    --button-color-red: #FFC5C5;
+
+    //  ===== Transition =====
+    --tran-05: all 0.5s ease;
+    --tran-03: all 0.3s ease;
+    --tran-02: all 0.2s ease;
+}
+
